@@ -67,7 +67,7 @@ function calculateResult(operand1, operand2, operator) {
             return operand1 + operand2;
         case '-':
             return operand1 - operand2;
-        case '×':
+        case 'x':
             return operand1 * operand2;
         case '÷':
             return operand1 / operand2;
