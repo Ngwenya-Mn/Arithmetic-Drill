@@ -41,6 +41,7 @@ function checkAnswers() {
 
 // Restart
 function restart() {
+    problems = [];
     generateProblems();
     displayProblems();
     document.getElementById('feedback').textContent = '';
